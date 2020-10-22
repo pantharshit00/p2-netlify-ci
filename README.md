@@ -1,4 +1,4 @@
-# Netlify CI
+# Netlify + Prisma
 
 Prisma and Netlify integration.
 
@@ -12,18 +12,17 @@ Alternatively, you can login using `netlify login`.
 
 ### Environment variables
 
-The environment variable `NETLIFY_PG_URL` should point to a postgres database.
+The environment variable `NETLIFY_BETA_PG_URL` should point to a postgres database.
+
 Please check our internal 1Password E2E vault for a ready-to-use environment variable or  
 set up your own database and set the environment variable accordingly.
 
-### Run tests
-
-```shell script
-sh run.sh
-```
-
-Alternatively, you can also try deploying locally, but note that you might that the CI behaviour is not tested which might be relevant:
+### Run Locally
 
 ```shell script
 netlify dev
 ```
+
+### Deploy
+
+Use nelify's git integration. In build command, put the value `yarn`
