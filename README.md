@@ -26,4 +26,3 @@ netlify dev
 ### Deploy
 
 Use nelify's git integration. In build command, put the value `yarn`
-
