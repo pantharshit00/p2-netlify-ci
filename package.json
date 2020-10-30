@@ -12,7 +12,7 @@
     "dev": "netlify dev"
   },
   "dependencies": {
-    "@prisma/client": "2.10.0-dev.55",
+    "@prisma/client": "2.7.0",
     "fetch-retry": "4.0.0",
     "node-fetch": "2.6.0"
   }
