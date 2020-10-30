@@ -1,0 +1,49 @@
+Arguments: 
+  /home/harshit/.nvm/versions/node/v14.15.0/bin/node /home/harshit/.nvm/versions/node/v14.15.0/bin/yarn
+
+PATH: 
+  /home/harshit/.nvm/versions/node/v14.15.0/bin:/home/harshit/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/harshit/code/p2-netlify-ci/package.json: Unexpected token : in JSON at position 113
+      at JSON.parse (<anonymous>)
+      at /home/harshit/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/harshit/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/harshit/.nvm/versions/node/v14.15.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "netlify-ci",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+  :   "@prisma/cli": "2.7.0",
+      "@types/node": "12.12.69",
+      "netlify-cli": "2.65.6"
+    },
+    "scripts": {
+      "dev": "netlify dev"
+    },
+    "dependencies": {
+      "@prisma/client": "2.7.0",
+      "fetch-retry": "4.0.0",
+      "node-fetch": "2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
